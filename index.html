@@ -28,14 +28,14 @@
 
   <!-- Your SDK code -->
   <script>
-    window.fbAsyncInit = function() {
+    window.fbAsyncInit = function () {
       FB.init({
-        xfbml            : true,
-        version          : 'v15.0'
+        xfbml: true,
+        version: 'v15.0'
       });
     };
 
-    (function(d, s, id) {
+    (function (d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
       js = d.createElement(s); js.id = id;
@@ -165,9 +165,16 @@
     </section>
     <!--service section-->
     <section id="services" class="row">
-      <div class="col-lg-12">
-        <h2 class="text-center">Services</h2>
+      <div class="row">
+        <div class="col-lg-6 text-start">
+          <h2>Services</h2>
+        </div>
+        <div class="col-lg-6 text-end" style="margin-top: 50px;">
+          <p><a style="text-decoration: none; color: black;" href="services.html">View all &nbsp;&rarr;</a></p>
+        </div>
       </div>
+
+
       <div class="row">
         <div class="col-md-6">
           <div class="card mb-3">
@@ -177,9 +184,10 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Venue</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <a href="services.html"><button type="button" class="btn btn-primary">Explore</button></a>
+                  <a style="text-decoration: none; color: black;" href="services.html">
+                    <h5 class="card-title">Venue</h5>
+                  </a>
+                  <p class="card-text">Banquet, Party Palace & Hotels</p>
                 </div>
               </div>
             </div>
@@ -193,9 +201,44 @@
               </div>
               <div class="col-md-8">
                 <div class="card-body">
-                  <h5 class="card-title">Photographer</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <a href="services.html"><button type="button" class="btn btn-primary">Explore</button></a>
+                  <a style="text-decoration: none; color: black;" href="services.html">
+                    <h5 class="card-title">Photographer</h5>
+                  </a>
+                  <p class="card-text">Photographer & Videographer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/6.jpg" class="img-fluid rounded-end" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <a style="text-decoration: none; color: black;" href="services.html">
+                    <h5 class="card-title">Make Up</h5>
+                  </a>
+                  <p class="card-text">Bridal Makeup & Family Makeup</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/7.jpg" class="img-fluid rounded-end" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <a style="text-decoration: none; color: black;" href="services.html">
+                    <h5 class="card-title">Baja</h5>
+                  </a>
+                  <p class="card-text">Band Baja and Panche Baja</p>
                 </div>
               </div>
             </div>
