@@ -4,6 +4,12 @@
 #services h2{
     margin: 50px auto;
 }
+.sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
 .card {
     margin: 15px auto;
 }

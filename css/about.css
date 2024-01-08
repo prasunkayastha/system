@@ -9,3 +9,9 @@ footer p{
 footer img{
     margin: 20px auto;
 }
+.logo{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
